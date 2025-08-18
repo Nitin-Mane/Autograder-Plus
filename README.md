@@ -1,9 +1,9 @@
 # Autograder+: A Multi-Faceted AI Framework for Rich Pedagogical Feedback in Programming Education
 
-Autograder+ is an advanced, command-line-based framework designed to revolutionize the assessment of programming assignments. It moves beyond traditional autograders by integrating a multi-stage analysis pipeline that provides deep, instructional insights for both students and educators. The system combines secure, containerized code execution with state-of-the-art AI, including specialized code embedding models and large language models (LLMs), to deliver comprehensive feedback and powerful classroom analytics.
-
-![UMAP Plot of Student Submissions](reports/hw2/umap_plot.png)
-*(Example UMAP visualization showing semantic clusters of student solutions)*
+The rapid growth of programming education has outpaced traditional assessment tools, leaving faculty with limited means toprovide meaningful, scalable feedback. Conventional autograders,while efficient, act as “black-box” systems that merely indicate pass/fail status, offering little instructional value or insight into the student’s approach. Autograder+ addresses this gap through two unique features: (1) feedback generation via a fine-tuned Large Language Model (LLM), and (2) visualization of all student code submissions. The LLM is adapted via domain-specific finetuning on curated student code and expert annotations, ensuring feedback is pedagogically aligned and context-aware. In empirical
+evaluation across 600 student submissions across various programming problems, Autograder+ produced feedback with an average BERTScore F1 of 0.75, demonstrating strong semantic alignment with expert-written feedback. To make visualizations meaningful,Autograder+ employs contrastively learned embeddings trained on 1,000 annotated submissions, which organize solutions into a performance-aware semantic space resulting in clusters of function-
+ally similar appraoches. The framework also integrates a Prompt Pooling mechanism, allowing instructors to dynamically influence the LLM’s feedback style using a curated set of specialized prompts.
+By combining advanced AI feedback generation, semantic organization, and visualization, Autograder+ reduces evaluation workload while empowering educators to deliver targeted instruction andfoster resilient learning outcomes.
 
 ### Core Features
 
