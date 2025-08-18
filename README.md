@@ -116,9 +116,11 @@ autograder-plus/
 │       ├── feedback_generator.py
 │       └── analytics_engine.py
 │   └── pipeline.py         # Main pipeline orchestrator
-├── finetune/               # (Optional) Scripts for model fine-tuning
-│   ├── finetune_embeddings.py
-│   └── supcon_loss.py
+├──  other_module/
+|     Contrastive_finetune/  
+│      ├── fine_tune.py
+|      ├── mnrloss.py
+│      └── mul_supcon_loss.py
 ├── main.py                 # Main Command-Line Interface (CLI) entry point
 └── requirements.txt        # Python package dependencies
 
@@ -141,6 +143,8 @@ Key File Descriptions
         embedding_engine.py: Loads a pre-trained or fine-tuned embedding model (e.g., nomic-embed-code) to convert code into semantic vectors.
 
         feedback_engine.py: Connects to the local Ollama server to send prompts (containing student code, errors, and instructor questions) to a generative LLM (e.g., Qwen2) and parses the structured feedback.
+
+        prompt_pool.py: Collection of Prompt .
 
         feedback_generator.py: Consumes the results from all analysis stages and generates the final human-readable reports (aggregated .md and summary .csv).
 
