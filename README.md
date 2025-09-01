@@ -1,3 +1,6 @@
+[![CI](https://github.com/zvikrnt/Autograder-Plus/actions/workflows/ci.yml/badge.svg)](https://github.com/zvikrnt/Autograder-Plus/actions/workflows/ci.yml)
+
+
 # Autograder+: A Multi-Faceted AI Framework for Rich Pedagogical Feedback in Programming Education
 
 The rapid growth of programming education has outpaced traditional assessment tools, leaving faculty with limited means toprovide meaningful, scalable feedback. Conventional autograders,while efficient, act as “black-box” systems that merely indicate pass/fail status, offering little instructional value or insight into the student’s approach. Autograder+ addresses this gap through two unique features: (1) feedback generation via a fine-tuned Large Language Model (LLM), and (2) visualization of all student code submissions. The LLM is adapted via domain-specific finetuning on curated student code and expert annotations, ensuring feedback is pedagogically aligned and context-aware. In empirical
