@@ -1,4 +1,4 @@
-[![CI](https://github.com/zvikrnt/Autograder-Plus/actions/workflows/ci.yml/badge.svg)](https://github.com/zvikrnt/Autograder-Plus/actions/workflows/ci.yml)
+[![CI](https://github.com/Nitin-Mane/Autograder-Plus/actions/workflows/ci.yml/badge.svg)](https://github.com/Nitin-Mane/Autograder-Plus/actions/workflows/ci.yml)
 
 
 # Autograder+: A Multi-Faceted AI Framework for Rich Pedagogical Feedback in Programming Education
